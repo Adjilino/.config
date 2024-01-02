@@ -50,6 +50,7 @@ decorations = "buttonless"
 dynamic_padding = false
 option_as_alt = "Both"
 startup_mode = "Windowed"
+opacity = 0.9
 
 [window.padding]
 x = 12
