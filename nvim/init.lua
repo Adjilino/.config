@@ -87,7 +87,7 @@ require('lazy').setup({
       {
         'j-hui/fidget.nvim',
         opts = {
-          integrations = {
+          integration = {
             ['nvim-tree'] = {
               enable = true,
             }
