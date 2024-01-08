@@ -23,8 +23,8 @@ white = "#c1c0d4"
 yellow = "#e6b99d"
 
 [colors.primary]
-background = "#161617"
-foreground = "#c9c7cd"
+background = "#000000"
+foreground = "#ffffff"
 
 [env]
 TERM = "xterm-256color"
