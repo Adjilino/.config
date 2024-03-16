@@ -1,19 +1,24 @@
 import darkdetect, time
+import os
+
+home = os.path.expanduser('~')
+workDirectory = home + "/.config/alacritty/"
 
 def detectTheme():
     data = ""
 
     if darkdetect.isDark():
-        with open("alacritty-dark.toml", "r") as f:
+        with open(workDirectory + "alacritty-dark.toml", "r") as f:
             data = f.read() 
     else:
-        with open("alacritty-light.toml", "r") as f:
+        with open(workDirectory + "alacritty-light.toml", "r") as f:
             data = f.read()
 
-    with open("alacritty.yml", "w") as f:
-        f.write(data)
+    if data:
+        with open(workDirectory + "alacritty.toml", "w") as f:
+            f.write(data)
 
-    time.sleep(2)
+    time.sleep(1)
     detectTheme()
 
 detectTheme()

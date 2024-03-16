@@ -23,8 +23,8 @@ white = "#c1c0d4"
 yellow = "#e6b99d"
 
 [colors.primary]
-background = "#ffffff"
-foreground = "#000000"
+background = "#000000"
+foreground = "#ffffff"
 
 [env]
 TERM = "xterm-256color"
@@ -42,7 +42,7 @@ style = "Bold Italic"
 style = "Italic"
 
 [font.normal]
-family = "MesloLGS NF"
+family = "MesloLGS Nerd Font Mono"
 style = "Regular"
 
 [window]
@@ -50,7 +50,7 @@ decorations = "buttonless"
 dynamic_padding = false
 option_as_alt = "Both"
 startup_mode = "Windowed"
-opacity = 0.9
+opacity = 0.8
 blur = true
 
 [window.padding]
