@@ -7,8 +7,8 @@ return {
     --     vim.api.nvim_set_keymap(mode, key, command, )
     -- end
 
-    vim.keymap.set('n', '<leader>pf', ':PrettierAsync<CR>',
-      { noremap = true, silent = true, desc = '[P]rettier [F]ormat' })
+    vim.keymap.set('n', '<leader>fp', ':PrettierAsync<CR>',
+      { noremap = true, silent = true, desc = ' [F]ormat with [P]rettier' })
 
     vim.g['prettier#quickfix_enabled'] = '1'
     vim.g['prettier#prose_wrap'] = 'always'
