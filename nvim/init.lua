@@ -104,6 +104,9 @@ require('lazy').setup({
 -- Set highlight on search
 vim.o.hlsearch = false
 
+-- Set cursorline of current line
+vim.o.cursorline = true
+
 -- Make line numbers default
 vim.wo.number = true
 vim.wo.relativenumber = true
