@@ -1,6 +1,16 @@
+# macos
 .DS_Store
+
+# Copilot
 github-copilot/
-configstore/
+
+# Git
 git/
-zed/
+
+# Zed
+zed/*
+!zed/settings.json
+
+# Others
+configstore/
 
