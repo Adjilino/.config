@@ -9,16 +9,50 @@
 {
     "theme": {
         "mode": "system",
-        "light": "macOS Classic Light",
-        "dark": "macOS Classic Dark2"
+        "light": "Xcode Default Light",
+        "dark": "Xcode Default Dark"
     },
     "features": {
+        "inline_completion_provider": "none",
         "copilot": false
     },
     "vim_mode": true,
     "tab_size": 4,
     "relative_line_numbers": true,
-    "ui_font_family": "Iosevka Nerd Font Mono",
-    "buffer_font_family": "Iosevka Nerd Font Mono",
-    "show_whitespaces": "boundary"
+    "ui_font_family": "MesloLGS Nerd Font Mono",
+    "buffer_font_family": "MesloLGS Nerd Font Mono",
+    "show_whitespaces": "boundary",
+    "experimental.theme_overrides": {
+        // for Xcode Default Light
+        // "background.appearance": "blurred",
+        // "background": "#e8e8e8c0",
+        // "border": "#909090c0",
+        // "text": "#000000ff",
+        // "text.muted": "#404040ff",
+        // // problem: what is text.disabled / ghost_element.disabled
+        // // "text.disabled": "#808080ff",
+        // "status_bar.background": "#e8e8e8c0",
+        // "title_bar.background": "#e8e8e8c0",
+        // "panel.background": "#00000000",
+        // "ghost_element.background": "#00000000",
+        // "ghost_element.hover": "#00000020",
+        // "ghost_element.active": "#00000020",
+        // "ghost_element.selected": "#00000020"
+
+        // for Xcode Default Dark
+        "background.appearance": "blurred",
+        "background": "#2a2a30c0",
+        "border": "#101010ff",
+        "text": "#ffffffff",
+        "text.muted": "#bfbfbfff",
+        // problem: what is text.disabled / ghost_element.disabled
+        // "text.disabled": "#something",
+        "status_bar.background": "#2a2a30c0",
+        "title_bar.background": "#2a2a30c0",
+        "panel.background": "#00000000",
+        "ghost_element.background": "#00000000",
+        "ghost_element.hover": "#a8a8a880",
+        "ghost_element.active": "#a8a8a880",
+        "ghost_element.selected": "#a8a8a880"
+    }
 }
